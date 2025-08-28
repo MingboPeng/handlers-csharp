@@ -16,8 +16,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="HoneybeeSchema" Version="*"/>
-		<ProjectReference Include="..\..\..\rhino-plugin-core\src\Pollination.Core\Pollination.Core.csproj"/>
-		<ProjectReference Include="..\..\..\pollinationSDK\src\PollinationSDK\PollinationSDK.csproj"/>
+		<PackageReference Include="HoneybeeSchema" Version="*" />
+		<PackageReference Include="ModelEditorSDK" Version="2.6.2" />
+		<ProjectReference Include="..\..\..\rhino-plugin-core\src\Pollination.Core\Pollination.Core.csproj" />
+		<ProjectReference Include="..\..\..\pollinationSDK\src\CSharpSDK\PollinationSDK.csproj" />
 	</ItemGroup>
 </Project>
